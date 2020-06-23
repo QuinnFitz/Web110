@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Quinn Fitzgerald: WEB110 Portal Website</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Luke Edstrom: WEB110 Portal Website</h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Welcome</a>
+       <a href="elements.html">HTML Elements</a>
+       <a href="big/index.html">BIG</a>
+       <a href="aia.html">AIA</a>
+       <a href="flowchart.html">Flowchart</a>
+       <a href="fp/index.html">Final Project</a>
+       <a href="http://w3schools.com" target="_blank">W3 Schools</a>
+       <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
+       <a href="contact.php">Contact Luke</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+     </header>
+     
+   <div class="wrapper">
+     
+     <img class="desktop" src="images/desktop.jpg" alt="Photo of a man with a guitar" />
+       
+     <img class="tablet" src="images/tablet.jpg" alt="Photo of a man with a guitar" />
+       
+     <img class="phone" src="images/phone.jpg" alt="Photo of a man with a guitar" />
+       
+       <h2 class="subheader">So Much About Me</h2>
+       
+       <p>Luke is a singer/ songwriter from Seattle, Washington, playing acoustic guitar and singing soulful pop and rock songs in the vein of John Mayer, Elliott Smith, and Jack Johnson. Picking up guitar at age 12, he began to write his own songs as well, and took special interest in music as a junior in high school after joining the choir. Senior year, he continued on in choir until dropping out of high school to move closer to Seattle; he moved in with his sister and began working in a coffee shop, at which point he discovered the local open mic scene where he debuted the music he had written. He has published several demos and continued playing live at venues like the Stone Way Café in Seattle up as of 2020.</p>
+
+     <footer>
+      <p><small>&copy; 2020 by <a href="contact.php">Contact Luke Edstrom</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>
